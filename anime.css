@@ -35,34 +35,48 @@ body{
 }
 
   
-    .header-col3 {
-      border: none;
-      color: white;
-      border-radius:5px;
+    .btn1{
+      color:white;
+      font-weight: 900;
       background-color: #e67e22;
-      font-size: 15px;
-      font-weight: 700;
-      padding-left:15px; 
-      padding-right:15px;/* Adjust this value to decrease the space */
+      border: none;
+      width:100px;
+      height:30px;
+      border-radius:3px ;
+      cursor: pointer;
     }
-  
+    .btn3{
+      text-decoration: none;
+      color:white;
+      font-weight: 900;
+      background-color:#2980b9 ;
+      border: none;
+      width:100px;
+      height:30px;
+      border-radius:3px ;
+      cursor: pointer;
+      
+    }
+    .btn2{
+      color:#3498db;
+      font-weight: 900;
+      border:2px solid #3498db;
+      border-radius: 3px;
+      background-color: white;
+      width:100px;
+      height:30px;
+      cursor: pointer;
+    }
+    .btn1:hover{
+      background-color: #f39c12;
+    }
+    .btn2:hover{
+      background-color: #dff9fb;
+    }
+    .btn3:hover{
+      background-color: #3498db;
+    }
 
-
-
-.header-col4{
-    border:2px solid #2980b9;
-    border-radius:5px;
-    color:#2980b9;
-    padding-left:15px; 
-      padding-right:15px;
-}
-.header-col5{
-    background-color: #2980b9;
-    border-radius:5px;
-    color:white;
-    padding-left:15px; 
-      padding-right:15px;
-}
 .fa-edit{
     color:white;
 }
